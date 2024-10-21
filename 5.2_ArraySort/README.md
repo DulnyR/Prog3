@@ -1,18 +1,5 @@
-## Getting Started
-
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+La clase Arrays es una clase de utilidad de Java que tiene múltiples métodos estáticos que pueden ser
+útiles cuando se trabaja con Arrays. Entre ellos existe el método estático Arrays.sort(). Realiza un
+programa que solicite 5 Strings al usuario y las muestre ordenadas utilizando este método.
+Para poder ordenar arrays de objetos será necesario emplear un objeto llamado Comparator que
+definiremos en próximas sesiones.
