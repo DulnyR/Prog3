@@ -13,7 +13,7 @@ public class TiendaCochesHashMap {
             System.out.println("1. Agregar coche");
             System.out.println("2. Eliminar coche");
             System.out.println("3. Modificar coche");
-            System.out.println("4. Listar coche");
+            System.out.println("4. Listar coches");
             System.out.println("5. Salir");
             opcion = readInt("Ingrese una opción: ");
 
