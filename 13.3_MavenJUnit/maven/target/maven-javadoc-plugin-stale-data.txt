@@ -1,0 +1,57 @@
+-J-Duser.language=
+-J-Duser.country=
+@options
+@argfile
+-encoding
+'UTF-8'
+-protected
+-source
+'8'
+-sourcepath
+'C:/Users/Radek/Documents/USAL/Programacion 3/Prog3/13.2_MavenJavaDoc/maven/src/main/java/com/maven'
+-author
+-bottom
+'Copyright &#169; 2025. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/Radek/Documents/USAL/Programacion 3/Prog3/13.2_MavenJavaDoc/maven/target/reports/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'maven 1.0-SNAPSHOT API'
+-linkoffline
+'https://docs.oracle.com/javase/8/docs/api' 'C:/Users/Radek/Documents/USAL/Programacion 3/Prog3/13.2_MavenJavaDoc/maven/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'maven 1.0-SNAPSHOT API'
+'C:/Users/Radek/Documents/USAL/Programacion 3/Prog3/13.2_MavenJavaDoc/maven/src/main/java/com/maven/App.java'
+'C:/Users/Radek/Documents/USAL/Programacion 3/Prog3/13.2_MavenJavaDoc/maven/src/main/java/com/maven/EratostenesFinder.java'
+'C:/Users/Radek/Documents/USAL/Programacion 3/Prog3/13.2_MavenJavaDoc/maven/src/main/java/com/maven/NaiveFinder.java'
+'C:/Users/Radek/Documents/USAL/Programacion 3/Prog3/13.2_MavenJavaDoc/maven/src/main/java/com/maven/PrimeFinder.java'
+C:\Users\Radek\Documents\USAL\Programacion 3\Prog3\13.2_MavenJavaDoc\maven\src\main\java\com\maven\App.java = 1736034686232
+C:\Users\Radek\Documents\USAL\Programacion 3\Prog3\13.2_MavenJavaDoc\maven\src\main\java\com\maven\EratostenesFinder.java = 1736035242361
+C:\Users\Radek\Documents\USAL\Programacion 3\Prog3\13.2_MavenJavaDoc\maven\src\main\java\com\maven\NaiveFinder.java = 1736035242361
+C:\Users\Radek\Documents\USAL\Programacion 3\Prog3\13.2_MavenJavaDoc\maven\src\main\java\com\maven\PrimeFinder.java = 1736035242360
+C:\Users\Radek\Documents\USAL\Programacion 3\Prog3\13.2_MavenJavaDoc\maven\src\main\java\com\maven = 1736033578477
+C:\Users\Radek\Documents\USAL\Programacion 3\Prog3\13.2_MavenJavaDoc\maven\target\reports\apidocs\allclasses-index.html = 1736035252135
+C:\Users\Radek\Documents\USAL\Programacion 3\Prog3\13.2_MavenJavaDoc\maven\target\reports\apidocs\allpackages-index.html = 1736035252141
+C:\Users\Radek\Documents\USAL\Programacion 3\Prog3\13.2_MavenJavaDoc\maven\target\reports\apidocs\copy.svg = 1736035252221
+C:\Users\Radek\Documents\USAL\Programacion 3\Prog3\13.2_MavenJavaDoc\maven\target\reports\apidocs\element-list = 1736035252026
+C:\Users\Radek\Documents\USAL\Programacion 3\Prog3\13.2_MavenJavaDoc\maven\target\reports\apidocs\help-doc.html = 1736035252209
+C:\Users\Radek\Documents\USAL\Programacion 3\Prog3\13.2_MavenJavaDoc\maven\target\reports\apidocs\index-all.html = 1736035252182
+C:\Users\Radek\Documents\USAL\Programacion 3\Prog3\13.2_MavenJavaDoc\maven\target\reports\apidocs\index.html = 1736035252191
+C:\Users\Radek\Documents\USAL\Programacion 3\Prog3\13.2_MavenJavaDoc\maven\target\reports\apidocs\link.svg = 1736035252225
+C:\Users\Radek\Documents\USAL\Programacion 3\Prog3\13.2_MavenJavaDoc\maven\target\reports\apidocs\member-search-index.js = 1736035252154
+C:\Users\Radek\Documents\USAL\Programacion 3\Prog3\13.2_MavenJavaDoc\maven\target\reports\apidocs\module-search-index.js = 1736035252144
+C:\Users\Radek\Documents\USAL\Programacion 3\Prog3\13.2_MavenJavaDoc\maven\target\reports\apidocs\overview-tree.html = 1736035252105
+C:\Users\Radek\Documents\USAL\Programacion 3\Prog3\13.2_MavenJavaDoc\maven\target\reports\apidocs\package-search-index.js = 1736035252147
+C:\Users\Radek\Documents\USAL\Programacion 3\Prog3\13.2_MavenJavaDoc\maven\target\reports\apidocs\packages = 1736034112903
+C:\Users\Radek\Documents\USAL\Programacion 3\Prog3\13.2_MavenJavaDoc\maven\target\reports\apidocs\script.js = 1736035252218
+C:\Users\Radek\Documents\USAL\Programacion 3\Prog3\13.2_MavenJavaDoc\maven\target\reports\apidocs\search-page.js = 1736035252233
+C:\Users\Radek\Documents\USAL\Programacion 3\Prog3\13.2_MavenJavaDoc\maven\target\reports\apidocs\search.html = 1736035252187
+C:\Users\Radek\Documents\USAL\Programacion 3\Prog3\13.2_MavenJavaDoc\maven\target\reports\apidocs\search.js = 1736035252230
+C:\Users\Radek\Documents\USAL\Programacion 3\Prog3\13.2_MavenJavaDoc\maven\target\reports\apidocs\stylesheet.css = 1736035252214
+C:\Users\Radek\Documents\USAL\Programacion 3\Prog3\13.2_MavenJavaDoc\maven\target\reports\apidocs\tag-search-index.js = 1736035252157
+C:\Users\Radek\Documents\USAL\Programacion 3\Prog3\13.2_MavenJavaDoc\maven\target\reports\apidocs\type-search-index.js = 1736035252150

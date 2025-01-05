@@ -29,12 +29,12 @@ public abstract class PrimeFinder {
         return primeQuantity;
     }
 
-    public void calculate() {
+    public final void calculate() {
         Instant start = Instant.now();
         ArrayList<Integer> primes = calculatePrimes();
         Instant finish = Instant.now();
         requiredTime = Duration.between(start, finish).toMillis();
-        System.out.println("ha tardado " + requiredTime + " ms en encontrar " + primes.size() + " primos hasta el numero " + limit);
+        System.out.println(name + " ha tardado " + requiredTime + " ms en encontrar " + primes.size() + " primos hasta el numero " + limit);
     }
 
     public abstract ArrayList<Integer> calculatePrimes();

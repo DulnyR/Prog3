@@ -4,8 +4,10 @@ public class App {
     public static void main(String[] args) throws Exception {
         ArrayList<PrimeFinder> finders = new ArrayList<>();
 
-        finders.add(new NaiveFinder("Naive", 1000));
-        finders.add(new EratostenesFinder("Erato", 1000));
+        int limit = 100000;
+
+        finders.add(new NaiveFinder("Naive", limit));
+        finders.add(new EratostenesFinder("Erato", limit));
 
         for (PrimeFinder finder : finders) {
             finder.calculate();

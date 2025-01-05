@@ -1,0 +1,9 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "c:\\Users\\Radek\\Downloads\\gson-2.10.1.jar",
+        "c:\\Users\\Radek\\Downloads\\jadapter-for-native-tts-0.12.0.jar"
+    ]
+}

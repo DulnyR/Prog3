@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"com.maven","l":"App"},{"p":"com.maven","l":"EratostenesFinder"},{"p":"com.maven","l":"NaiveFinder"},{"p":"com.maven","l":"PrimeFinder"}];updateSearchResults();
