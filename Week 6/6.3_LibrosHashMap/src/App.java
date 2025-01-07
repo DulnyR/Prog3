@@ -84,8 +84,9 @@ public class App {
             System.out.println("No hay libros agregados");
         }
         else {
-            for (Map.Entry<String, Libro> libro : libros.entrySet()) {
-                System.out.println(libro.getKey() + " : " + libro.getValue());
+            for (Map.Entry<String, Libro> entry : libros.entrySet()) {
+                Libro libro = entry.getValue();
+                System.out.println(entry.getKey() + " : " + libro.getTitulo() + ", " + libro.getAutor().getNombre() + " " + libro.getAutor().getApellidos()[0]);
             }
         }
     }

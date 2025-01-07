@@ -5,7 +5,7 @@ public class Person {
 
     public Person() {
         this.name = "David";
-        this.height = 178;
+        this.height = 1.78;
         this.weight = 75;
     }
 
@@ -40,6 +40,9 @@ public class Person {
     }  
 
     public double getBMI() {
-        return this.weight / (this.height * this.height);
+        if(this.weight > 0 && this.height > 0) {
+            return this.weight / (this.height * this.height);
+        }
+        return 0;
     }
 }

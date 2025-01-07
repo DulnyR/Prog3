@@ -2,7 +2,7 @@ package Model;
 
 import java.io.Serializable;
 
-public class Book implements Serializable{
+public class Book implements Serializable {
     private static final long serialVersionUID = 1L;
     String bookName;
     String author;

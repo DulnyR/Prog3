@@ -1,6 +1,7 @@
 package mvcherenciainterface;
 
 import controller.Controller;
+import model.JSONRepository;
 import model.MemoryRepository;
 import model.Model;
 import model.PersistenceRepository;
@@ -88,6 +89,8 @@ public class MVCHerenciaInterface {
         switch (argumento) {
             case "tsv":
                 return new TSVRepository();
+            case "json":
+                return new JSONRepository();
             default:
                 return new MemoryRepository(20);
         }

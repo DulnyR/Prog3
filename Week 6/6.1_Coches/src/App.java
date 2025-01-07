@@ -1,6 +1,6 @@
 import static com.coti.tools.Esdia.*;
 
-public class TiendaCochesArray {
+public class App {
     
     private static final int MAX_SIZE = 5;
     private static Coche[] coches = new Coche[MAX_SIZE];

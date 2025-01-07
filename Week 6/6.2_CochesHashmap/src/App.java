@@ -2,7 +2,7 @@ import static com.coti.tools.Esdia.*;
 import java.util.HashMap;
 import java.util.Map;
 
-public class TiendaCochesHashMap {
+public class App {
     
     private static HashMap<String, Coche> coches = new HashMap<>();
 
@@ -48,12 +48,12 @@ public class TiendaCochesHashMap {
     }
 
     public static void modificarCoche() {
-        String matricula = readString_ne("Ingrese el dni de la persona a modificar: ");
+        String matricula = readString_ne("Ingrese la matricula del coche a modificar: ");
 
         if (coches.containsKey(matricula)) {
 
-            String nuevaMarca = readString_ne("Ingrese la nuevo marca: ");
-            String nuevoModelo =readString_ne("Ingrese el nuevo modelo: ");
+            String nuevaMarca = readString_ne("Ingrese la nueva marca: ");
+            String nuevoModelo = readString_ne("Ingrese el nuevo modelo: ");
             int nuevoAnoProd = readInt("Ingrese el nuevo ano de produccion: ");
 
             Coche cocheModificado = new Coche(nuevaMarca, nuevoModelo, nuevoAnoProd);
@@ -75,7 +75,7 @@ public class TiendaCochesHashMap {
         for(Map.Entry<String, Coche> entry : coches.entrySet()) {
             String matricula = entry.getKey();
             Coche coche = entry.getValue();
-            System.out.println("Matricula: " + matricula + ", " + coche);
+            System.out.println("Matricula: " + matricula + ", " + coche.getMarca() + ", " + coche.getModelo() + ", " + coche.getAnoProd());
         }
     }
 }

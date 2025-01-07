@@ -1,6 +1,7 @@
 package mvcherenciainterface;
 
 import controller.Controller;
+import model.JSONRepository;
 import model.MemoryRepository;
 import model.Model;
 import model.PersistenceRepository;
@@ -8,6 +9,7 @@ import model.TSVRepository;
 import view.AppView;
 import view.ConsolaListadoView;
 import view.ConsolaSubMenusView;
+import view.VoiceView;
 
 /**
  *
@@ -87,6 +89,8 @@ public class MVCHerenciaInterface {
         switch (argumento) {
             case "tsv":
                 return new TSVRepository();
+            case "json":
+                return new JSONRepository();
             default:
                 return new MemoryRepository(20);
         }
@@ -98,6 +102,8 @@ public class MVCHerenciaInterface {
                 return new ConsolaListadoView();
             case "submenus":
                 return new ConsolaSubMenusView();
+            case "tts":
+                return new VoiceView();
             default:
                 return new ConsolaListadoView();
         }

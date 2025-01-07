@@ -5,7 +5,7 @@ public class App {
         int birthYear = scanner.nextInt();
         System.out.print("Enter current year: ");
         int currentYear = scanner.nextInt();
-        System.out.println("You are " + (currentYear - birthYear) + " years old.");
+        System.out.printf("You are %d years old.", (currentYear - birthYear));
         scanner.close();
     }
 }

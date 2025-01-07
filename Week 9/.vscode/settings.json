@@ -1,0 +1,15 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "c:\\Users\\Radek\\Downloads\\biblioteca11.jar",
+        "c:\\Users\\Radek\\Downloads\\notion-sdk-jvm-core-1.11.1 (1).jar",
+        "c:\\Users\\Radek\\Downloads\\notion-sdk-jvm-core-1.11.1.jar",
+        "c:\\Users\\Radek\\Downloads\\gson-2.10.1.jar",
+        "c:\\Users\\Radek\\Downloads\\jackson-annotations-2.15.3.jar",
+        "c:\\Users\\Radek\\Downloads\\jackson-core-2.15.3.jar",
+        "c:\\Users\\Radek\\Downloads\\jackson-databind-2.15.3.jar",
+        "c:\\Users\\Radek\\Downloads\\jackson-dataformat-xml-2.15.3.jar",
+        "c:\\Users\\Radek\\Downloads\\jackson-dataformat-xml-2.16.0-rc1.jar",
+        "c:\\Users\\Radek\\Downloads\\stax2-api-4.0.0.jar"
+    ]
+}

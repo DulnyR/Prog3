@@ -1,7 +1,6 @@
 package view;
 
 import static com.coti.tools.Esdia.*;
-import controller.Controller;
 import java.util.List;
 import model.Alumno;
 
@@ -15,7 +14,6 @@ import model.Alumno;
  * @author Loza
  */
 public class ConsolaListadoView extends AppView {
-
 
     @Override
     public void mostrarInicio(String msgBienvenida) {

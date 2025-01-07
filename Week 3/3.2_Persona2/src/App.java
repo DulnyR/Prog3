@@ -1,6 +1,6 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        Person john = new Person("John", 180, 73);
+        Person person = new Person();
         Person bob = new Person("Bob", 192, 97);
         Person matt = new Person("Matt", 172, 122);
 

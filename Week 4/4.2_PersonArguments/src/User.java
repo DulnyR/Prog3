@@ -5,7 +5,7 @@ public class User {
 
     public User() {
         this.name = "David";
-        this.height = 178;
+        this.height = 1.78;
         this.weight = 75;
     }
 
@@ -40,15 +40,16 @@ public class User {
     }  
 
     public double getBMI() {
-        return this.weight / (this.height * this.height);
+        double bmi = this.weight / (this.height * this.height);
+        return bmi;
     }
 
     public static User makeUser(String[] params) {
         try {
             String name = params[0];
-            double weight = Double.parseDouble(params[1]);
-            double height = Double.parseDouble(params[2]);
-            return new User(name, weight, height);
+            double height = Double.parseDouble(params[1]);
+            double weight = Double.parseDouble(params[2]);
+            return new User(name, height, weight);
         } catch (NumberFormatException nfe) {
             System.err.println("Incorrect data inputted.");
             return null;

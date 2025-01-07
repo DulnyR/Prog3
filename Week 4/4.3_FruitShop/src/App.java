@@ -39,9 +39,7 @@ public class App {
         }
 
         System.out.println("|---------------------------------------------------|");
-        System.out.println(String.format("| Total con IVA %6.2f €                            |", total));
+        System.out.println(String.format("| Total price with VAT %6.2f €                     |", total));
         System.out.println("|---------------------------------------------------|");
-
-        System.out.println("Total price with VAT " + String.format("%.2f", total) + " EUR");
     }
 }
